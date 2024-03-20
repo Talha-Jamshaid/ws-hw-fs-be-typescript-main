@@ -13,6 +13,7 @@ const config: ConfigInterface = {
   },
   graphQLPath: '/graphql',
   resolvers: [`${__dirname}/../resolvers/**/*Resolver.ts`],
+  // resolvers: [`${__dirname}/../resolvers/**/*.ts`],
 };
 
 export default config;
